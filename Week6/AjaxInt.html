@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>title</title>
+  </head>
+  <body>
+    <form>
+		<fieldset>
+			<legend>Open Weather Map Assignment</legend>
+			<label for="city">Enter City,state</label>
+			<input type="text" name="city" id="city">
+			<br/>
+			<label for="zipCode">Enter zipcode</label>
+			<input type="text" name="zipCode" id="zipCode">
+			<br/>
+			<input type="submit" id="submitData">
+		</fieldset>
+	</form>
+	<div>
+		<h2>Weather results:</h2>
+		
+		<ul>
+			<li><span>City: </span><span id="cityName"></span>
+			<li><span>Temperature: </span><span id="temp"></span>
+			<li><span>Humidity: </span><span id="humidity"></span>
+			<li><span>Wind Speed: </span><span id="wind"></span>
+		</ul>
+	</div>
+	<form>
+		<fieldset>
+			<legend>POST Assignment</legend>
+			<label for="submitText">Enter text here:</label>
+			<input type="text" name="submitText" id="submitText">
+			<br/>
+			<input type="submit" id="textSubmit">
+		</fieldset>
+	</form>
+	<div>
+		<h2>JSON response:</h2>
+		<ul>
+			<li><span>JSON response: </span><span id="JSONresponse"></span>
+			
+    <script src="AjaxInt.js"></script>
+  </body>
+</html>
+
